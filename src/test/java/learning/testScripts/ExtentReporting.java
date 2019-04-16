@@ -1,9 +1,5 @@
 package learning.testScripts;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -16,7 +12,7 @@ public class ExtentReporting {
 	
 	public ExtentReports extentReporting()
 	{
-		System.out.println("Inside ExtentReporting Class");
+		System.out.println("Inside ExtentReporting Class with test branch 3");
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./reports/PracticeAutomation.html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
