@@ -71,8 +71,8 @@ public class DeliveryHeroTest extends BaseTest {
 	{
 		extentTest= extentReports.createTest("confirmBooking");
 		key.setExtentTest(extentTest);
-		System.out.println("Inside Test Method 2");
-		WebElement logoImage = key.returnElement("xpath", "//*[@data-selenium='textInputt']]");
+		System.out.println("Inside Test Method 3");
+		WebElement logoImage = key.returnElement("xpath", "//*[@data-selenium='textInput']]");
 	}
 	
 	@AfterTest
